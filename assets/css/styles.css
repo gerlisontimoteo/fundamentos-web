@@ -1,5 +1,43 @@
 /* Styles configuration for the html file */
 
+nav {
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 16px;
+}
+
+#menu li{
+  display: inline;
+  padding: 10px;
+  box-shadow: 1px 1px 10px none;
+  }
+  
+  #menu li a{
+    text-decoration: none;
+    color:#c5c6c7;
+    font-size: 18px;
+    font-style: strong;
+    text-transform: uppercase;
+  }
+  
+  #menu li a:hover{
+    color:#e60000;
+  }
+
 .center{
   text-align: center;
 }
@@ -29,23 +67,7 @@
   align-items: center;
 }
 
-#menu li{
-display: inline;
-padding: 10px;
-box-shadow: 1px 1px 10px none;
-}
 
-#menu li a{
-  text-decoration: none;
-  color:#c5c6c7;
-  font-size: 18px;
-  font-style: strong;
-  text-transform: uppercase;
-}
-
-#menu li a:hover{
-  color:#e60000;
-}
 
 .p-01{
   padding: 20px;
@@ -84,6 +106,13 @@ text-align:justify;
   padding: 10px;
   vertical-align: middle;
 }
+.image{
+  display: inline;
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  vertical-align: middle;
+}
 #menu {
   background-repeat: no-repeat;
   background-color: black;
@@ -114,4 +143,9 @@ text-align:justify;
 }
 .p-bold{
 font-weight: bold;
+}
+
+.pad {
+  padding-top: 0px;
+  padding-left: 0px;
 }
